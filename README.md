@@ -1,7 +1,11 @@
+# Disclaimer
+This is a simulation only example that aids students who do not have the actual kit to start experimenting
+
 # UART_TivaC_Transmit_Receive
 A demonstration of the transmission and receiving of data using UART utilizing TivaC-Series microcontrollers
 
-![image](https://github.com/user-attachments/assets/3284191b-329a-4691-b9d0-c89ce61e810e)
+![image](https://github.com/user-attachments/assets/ad0e44ea-653b-4699-9151-5dfe16aaf046)
+
 
 ## Purpose
 Getting Familiar with tm4cgh6pm microcontroller, UART protocol, Interrupts and Polling
@@ -12,3 +16,5 @@ The development environment being used is Keil µVision. This integrated develop
 ![image](https://github.com/user-attachments/assets/3567ea35-6608-4618-9161-8caf3608cf2b)
 
 ## User Guide
+1- Install [keiluVision](https://www.keil.com/download/)
+2- Download *TivaWare* from [TI's official website](https://www.ti.com/tool/SW-TM4C) (Note: needed for getting *tm4cgh6pm* library
