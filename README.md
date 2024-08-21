@@ -16,9 +16,18 @@ The development environment being used is Keil µVision. This integrated develop
   <img src="https://github.com/user-attachments/assets/3567ea35-6608-4618-9161-8caf3608cf2b" />
 </p>
 ## User Guide
-1- Install [keiluVision](https://www.keil.com/download/) \
-2- Download *TivaWare* from [TI's official website](https://www.ti.com/tool/SW-TM4C) (Note: needed for getting *tm4cgh6pm* library) \
-3- Install the packages necessary from package installer \
+1- Install [keiluVision](https://www.keil.com/download/) <br />
+2- Download *TivaWare* from [TI's official website](https://www.ti.com/tool/SW-TM4C) (Note: needed for getting *tm4cgh6pm* library) <br />
+3- Install the packages necessary from package installer (most importantly texas instruments TivaC Series <br />
 
 ![Picture1](https://github.com/user-attachments/assets/f0e9420b-c3f2-4860-b362-fab1168d3bad)
+
+![Picture2](https://github.com/user-attachments/assets/1792fd55-2a78-4b49-95d9-6b5c0ce9be85)
+
+
+4- Create a new project in keiluVision
+![image](https://github.com/user-attachments/assets/d0480a98-7d8e-44ba-8a14-b8516d695dca)
+
+
+
 
