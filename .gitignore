@@ -1,0 +1,11 @@
+*.o
+*.d
+*.scvd
+*.dep
+*.htm
+*.DELL
+*.uvprojx
+*.uvoptx
+*.axf
+*.Inp
+*.map
