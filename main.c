@@ -13,7 +13,7 @@
 #include "driverlib/sysctl.h"
 #include "driverlib/uart.h" */
 #include "bsp.h"
-#include "UART.h"
+// #include "UART.h"
 //*****************************************************************************
 //
 // The error routine that is called if the driver library encounters an error.
@@ -40,12 +40,19 @@ int main(){
 
 	//PORTA_init();
 	// PORTF_init();
-	char received;
+	char received, send;
 	while(1){
 		received = uart0_receive_mod();
+		// if nothing is received, will not enter the condition
 		if (received){
-			
-			uart0_putchar('c');
+			if (received >= 0x61 && received <= 0x7a){ // check that is lower case
+				send = received - 0x20;   // if it is lower case, send thr upper version
+				uart0_putchar((char)send);
+			}else if (received >= 0x41 && received <= 0x5a){
+				send = received + 1;
+				uart0_putchar((char)send);
+			}
+			received = 0;
 		}
 		Delay(5000);
 	}

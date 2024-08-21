@@ -1,6 +1,5 @@
 --cpu=Cortex-M4.fp.sp
 ".\main.o"
-".\uart.o"
 ".\bsp.o"
 ".\basicmathfunctions.o"
 ".\basicmathfunctionsf16.o"
