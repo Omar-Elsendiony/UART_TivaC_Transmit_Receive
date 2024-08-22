@@ -50,10 +50,6 @@ Note: Interrupt handler routine seems to not work in simulator and to install Se
 
 9- Use serial terminal to input data
 
-![image](https://github.com/user-attachments/assets/c4a404ee-53b6-44f1-b26b-4cee17fcf28f)
-
-
-
-
+![Picture4](https://github.com/user-attachments/assets/4a50c64e-fdec-4a86-9343-78d0bc5856bb)
 
 
